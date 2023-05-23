@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.337.0"
+  },
+  "name": "s3-lambda-blur-and-resize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "zip -r dist/function.zip . -x \"./dist/*\" -x \"./.git/*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
